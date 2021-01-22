@@ -1,0 +1,5 @@
+NATAA # Keep the existing amino acid but change the side chain to a new rotamer.
+EX 1 EX 2 # Allow additional sub-rotamer sampling for chi1 and chi2 of all side chains.
+USE_INPUT_SC # Use rotamers from input structure while packing.
+start 
+100 H PIKAA Y # Mutate residue 100 in chain H of CC12.1 to Tyr.

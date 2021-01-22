@@ -6,7 +6,7 @@
 
 ## Steps
 ---
-1. To generate 100 poses, run `<rosetta_location>/main/source/bin/fixbb.static.macosclangrelease -s CC12_1.pdb -resfile G100Y.resfile -nstruct 100 -out:prefix CC12_1_G100Y_ -out:path:all <output_folder>` while in the folder where **`CC12_1.pdb`** is located.
+1. To generate 100 poses, run `<rosetta_location>/main/source/bin/fixbb.static.macosclangrelease -s CC12_1.pdb -resfile CC12_1_G100Y.resfile -nstruct 100 -out:prefix CC12_1_G100Y_ -out:path:all <output_folder>` while in the folder where **`CC12_1.pdb`** is located.
     * Change `macosclangrelease` depending on your operating system.
 
 ## Notes

@@ -3,11 +3,18 @@
 ## Dependencies
 
 * [Rosetta Software Suite](https://www.rosettacommons.org/software/license-and-download)
+    * Either an academic or commercial license is required. One can request a license in the link above.
+    
+## Input Files
+
+* **CC12_1_G100Y.resfile** containing instructions on mutating G100 to Y100
+* **CC12_1.pdb** containing structure of CC12_1 for mutagenesis
 
 ## Steps
 
 1. To generate 100 poses, run `<rosetta_location>/main/source/bin/fixbb.static.macosclangrelease -s CC12_1.pdb -resfile CC12_1_G100Y.resfile -nstruct 100 -out:prefix CC12_1_G100Y_ -out:path:all <output_folder>` while in the folder where **`CC12_1.pdb`** is located.
     * Change `macosclangrelease` depending on your operating system.
+    * It took approximately 30 minutes to run on a computer with 16 GB RAM and a 2 GHz Quad-Core Intel Core i5 processor.
 
 ## Notes
 
